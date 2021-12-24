@@ -1,2 +1,5 @@
 # Employee-Managment-System
-Python Script
+
+This is a Python Script connected with mysql for employee managment.
+
+**Description Comming soon**
