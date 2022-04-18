@@ -25,8 +25,8 @@ except:
     print("Error 100")
 
 def mail_function(to_address,message,subject):
-    EMAIL_ADDRESS = "sqlmy321@gmail.com"
-    EMAIL_PASSWORD = 'As@123456'
+    EMAIL_ADDRESS = "ENTER_YOUR_GMAIL_ACCOUNT"
+    EMAIL_PASSWORD = 'ENTER_YOUR_PASSWORD'
     with smtplib.SMTP('smtp.gmail.com',587) as smtp:
         smtp.ehlo()
         smtp.starttls()
